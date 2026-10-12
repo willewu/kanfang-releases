@@ -1,11 +1,11 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0.0",
-  "apkUrl": "https://github.com/willewu/kanfang-releases/releases/download/v1.0.0/app-debug.apk",
+  "versionCode": 2,
+  "versionName": "1.1.0",
+  "apkUrl": "https://github.com/willewu/kanfang-releases/releases/download/v1.1.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/kanfang-releases/releases/download/v1.0.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/kanfang-releases/releases/download/v1.1.0/app-debug.apk"
   ],
-  "sha256": "cb75e774c398e006f4f9713a425f44e159f0d1a89c3db6a6656200b859937fb0",
-  "changelog": "- 首个版本：看房记录 APP\n- 记录总价/面积/位置/朝向/看房日期/备注，单价（元/㎡）自动计算\n- 照片持久化：拍照 + 相册，列表缩略图、详情翻页\n- 汇总：按楼盘分组（次数/总价区间/均价/平均单价/朝向分布）+ 按价格区间柱状图\n- 数据导出 JSON/CSV/Markdown（SAF，无需存储权限）\n- 应用内更新",
+  "sha256": "4ccecbdb59c67d7c7e9f3fd196c63ffa81717181dc6255a13ff6b4c1bd3479a0",
+  "changelog": "- 新增字段：最近地铁站 + 距地铁的距离（编辑页/详情页）\n- 导出 JSON/CSV/Markdown 含地铁信息\n- 数据库 v1→v2 显式迁移，老用户升级数据不丢",
   "minSupported": 1
 }
